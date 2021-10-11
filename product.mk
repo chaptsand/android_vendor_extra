@@ -25,5 +25,8 @@ endif
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/extra/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts)
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/extra/overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/extra/overlay
+
 PRODUCT_PACKAGES += \
     FontGoogleSansOverlay

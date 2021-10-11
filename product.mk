@@ -19,6 +19,10 @@ ifeq ($(WITH_GMS), true)
 $(call inherit-product, vendor/gms/products/gms.mk)
 $(call inherit-product, packages/overlays/ThemeIcons/config.mk)
 
+# Fonts
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/extra/overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/extra/overlay
+
 # ih8sn
 PRODUCT_PACKAGES += ih8sn
 

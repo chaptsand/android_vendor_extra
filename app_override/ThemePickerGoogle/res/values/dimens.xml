@@ -31,4 +31,8 @@
     <dimen name="option_tile_width_big">82dp</dimen>
     <!--  Default page horizontal margin (24dp) - separated tabs inset horizontal (4dp) -->
     <dimen name="separated_tabs_horizontal_margin">20dp</dimen>
+
+    <!--  Icon pack section -->
+    <dimen name="icon_options_container_min_height">96dp</dimen>
+    <dimen name="icon_options_container_top_margin">24dp</dimen>
 </resources>

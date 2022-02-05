@@ -36,6 +36,10 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
 
 endif
 
+# Pixel Theme Picker
+PRODUCT_PACKAGES += \
+    NexusLauncherOverlay
+
 # Themed Icons
 PRODUCT_PACKAGES += \
     Launcher3OverlayThemedIcons \

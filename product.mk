@@ -35,3 +35,8 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/etc/init/ih8sn.rc
 
 endif
+
+# Themed Icons
+PRODUCT_PACKAGES += \
+    Launcher3OverlayThemedIcons \
+    NexusLauncherOverlayThemedIcons

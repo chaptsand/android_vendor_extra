@@ -38,6 +38,7 @@ endif
 
 # Pixel Theme Picker
 PRODUCT_PACKAGES += \
+    ThemePickerGoogle \
     NexusLauncherOverlay
 
 # Themed Icons

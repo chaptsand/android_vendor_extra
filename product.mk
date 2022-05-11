@@ -11,6 +11,14 @@ PRODUCT_PACKAGES += \
 # Set compiler filter "verify" and disable AOT-compilation in dexpreopt
 RELAX_USES_LIBRARY_CHECK := true
 
+# Fonts
+PRODUCT_PACKAGES += \
+    LXGWZhenKai.ttf
+
+# Fonts Overlays
+PRODUCT_PACKAGES += \
+    FontLXGWZhenKaiOverlay
+
 # Google Apps
 ifeq ($(WITH_GMS), true)
 $(call inherit-product, vendor/gms/products/gms.mk)

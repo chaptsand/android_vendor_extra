@@ -1,0 +1,10 @@
+//
+// Copyright (C) 2022 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_font {
+    name: "LXGWZhenKai.ttf",
+    src: "LXGWZhenKai.ttf",
+    product_specific: true,
+}

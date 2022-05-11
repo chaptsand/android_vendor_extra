@@ -1,0 +1,22 @@
+<!--
+     Copyright (C) 2022 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.overlay.font.lxgwzhenkai"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <overlay
+        android:targetPackage="android"
+        android:category="android.theme.customization.font"
+        android:priority="1" />
+
+    <application
+        android:hasCode="false"
+        android:label="@string/font_lxgw-zhenkai_overlay">
+        <meta-data
+            android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
+            android:value="lxgw-zhenkai,lxgw-zhenkai-medium" />
+    </application>
+</manifest>

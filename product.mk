@@ -29,4 +29,5 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/extra/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/extra/overlay
 
 PRODUCT_PACKAGES += \
-    FontGoogleSansOverlay
+    FontGoogleSansOverlay \
+    FontHarmonySansOverlay

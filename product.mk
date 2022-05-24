@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 # Google Apps
 ifeq ($(WITH_GMS), true)
 $(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product, packages/overlays/ThemeIcons/config.mk)
 
 # ih8sn
 PRODUCT_PACKAGES += ih8sn

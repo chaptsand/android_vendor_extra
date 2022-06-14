@@ -36,3 +36,6 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/etc/init/ih8sn.rc
 
 endif
+
+# Translations
+PRODUCT_PACKAGE_OVERLAYS += vendor/translations/overlay

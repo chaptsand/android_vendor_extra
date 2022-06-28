@@ -8,9 +8,6 @@
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# Set compiler filter "verify" and disable AOT-compilation in dexpreopt
-RELAX_USES_LIBRARY_CHECK := true
-
 # Fonts
 PRODUCT_PACKAGES += \
     LXGWZhenKai.ttf

@@ -8,6 +8,12 @@
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# Filesystems tools
+PRODUCT_PACKAGES += \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat
+
 # Fonts
 PRODUCT_PACKAGES += \
     LXGWZhenKai.ttf

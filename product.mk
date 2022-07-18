@@ -40,5 +40,9 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
 
 endif
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/extra/configs/permissions/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
+
 # Translations
 PRODUCT_PACKAGE_OVERLAYS += vendor/translations/overlay

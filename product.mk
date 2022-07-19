@@ -17,6 +17,9 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     LXGWZhenKai.ttf \
+    OPlusSans-Regular.ttf \
+    OPlusSans-Hans-Regular.ttf \
+    OPlusSans-Hant-Regular.ttf \
     RobotoFallback-VF.ttf
 
 # Fonts Overlays

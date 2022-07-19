@@ -16,7 +16,8 @@ PRODUCT_PACKAGES += \
 
 # Fonts
 PRODUCT_PACKAGES += \
-    LXGWZhenKai.ttf
+    LXGWZhenKai.ttf \
+    RobotoFallback-VF.ttf
 
 # Fonts Overlays
 PRODUCT_PACKAGES += \

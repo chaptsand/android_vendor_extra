@@ -6,7 +6,7 @@
 
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    GrapheneCamera
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
@@ -42,11 +42,15 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/etc/ih8sn.conf \
     system/etc/init/ih8sn.rc
 
-endif
+# GCamera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
 
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/extra/configs/permissions/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
+
+endif
 
 # Translations
 PRODUCT_PACKAGE_OVERLAYS += vendor/translations/overlay

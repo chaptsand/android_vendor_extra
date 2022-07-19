@@ -9,5 +9,20 @@ android_app_import {
     overrides: ["Camera2"],
     presigned: true,
     product_specific: true,
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"]
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+android_app_import {
+    name: "GrapheneCamera",
+    apk: "GrapheneCamera/GrapheneCamera.apk",
+    default_dev_cert: true,
+    product_specific: true,
+    overrides: ["Camera2"],
+    optional_uses_libs: ["androidx.camera.extensions.impl"],
+    dex_preopt: {
+        enabled: false,
+    },
 }

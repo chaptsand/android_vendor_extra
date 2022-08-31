@@ -14,14 +14,6 @@ PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat
 
-# Fonts
-PRODUCT_PACKAGES += \
-    LXGWZhenKai.ttf
-
-# Fonts Overlays
-PRODUCT_PACKAGES += \
-    FontLXGWZhenKaiOverlay
-
 # Google Apps
 ifeq ($(WITH_GMS), true)
 $(call inherit-product, vendor/gms/products/gms.mk)

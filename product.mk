@@ -8,12 +8,6 @@
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# Filesystems tools
-PRODUCT_PACKAGES += \
-    mount.exfat \
-    fsck.exfat \
-    mkfs.exfat
-
 # Google Apps
 ifeq ($(WITH_GMS), true)
 $(call inherit-product, vendor/gms/products/gms.mk)

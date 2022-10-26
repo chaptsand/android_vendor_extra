@@ -20,3 +20,10 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/etc/init/ih8sn.rc
 
 endif
+
+# Fonts
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/extra/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
+PRODUCT_PACKAGES += \
+    FontGoogleSansOverlay

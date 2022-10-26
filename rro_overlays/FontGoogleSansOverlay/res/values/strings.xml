@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    
+    <!-- Headline / Body font Google Sans overlay -->
+    <string name="font_google_sans_overlay" translatable="false">Google Sans</string>
+
+</resources>

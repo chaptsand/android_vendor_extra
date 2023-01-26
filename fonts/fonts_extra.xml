@@ -140,6 +140,10 @@
         </font>
     </family>
 
+    <family customizationType="new-named-family" name="google-sans-clock">
+        <font>GoogleSansClock-Regular.ttf</font>
+    </family>
+
     <family customizationType="new-named-family" name="harmonyos-sans">
         <font weight="100" style="normal">HarmonyOS-Sans-Thin.ttf</font>
         <font weight="100" style="italic">HarmonyOS-Sans-ThinItalic.ttf</font>

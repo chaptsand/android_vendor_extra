@@ -19,6 +19,8 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/etc/ih8sn.conf \
     system/etc/init/ih8sn.rc
 
+# Pixel Clocks
+$(call inherit-product-if-exists, vendor/pixel_clocks/product.mk)
 endif
 
 PRODUCT_PACKAGES += \
